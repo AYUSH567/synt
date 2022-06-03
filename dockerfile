@@ -1,3 +1,3 @@
-FROM centos
-RUN yum install vim -y
+FROM ubuntu
+ADD . /var/www/html/synt
 
